@@ -1,36 +1,239 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here is the **proper `README.md` formatted file** you can directly paste into your GitHub repository.
 
-## Getting Started
+```markdown
+# 🩺 ArogyaAI – AI Powered Health Assistant
 
-First, run the development server:
+ArogyaAI is an AI-driven healthcare assistant that helps users analyze symptoms, decode prescriptions, find nearby doctors, and receive preventive health advice using artificial intelligence.
+
+The goal of this project is to make **basic healthcare guidance accessible, simple, and quick**, especially for people who may not have immediate access to doctors.
+
+---
+
+# 🚀 Features
+
+## 🧠 AI Symptom Analyzer
+- Users enter **age, symptoms, and health history**
+- AI analyzes symptoms and suggests:
+  - Possible conditions
+  - Risk level
+  - Simple advice in layman terms
+
+---
+
+## 📄 Prescription Analyzer
+- Upload doctor prescriptions
+- Extracts text from images using **OCR**
+- AI explains medicines and instructions
+
+---
+
+## 🏥 Doctor Near Me
+- Find nearby doctors or hospitals
+- Users can manually enter their location
+- Displays doctor cards with:
+  - Doctor name
+  - Rating
+  - Distance
+  - Call hospital button
+
+---
+
+## 📊 Health Dashboard
+The dashboard provides:
+
+- Quick health checks
+- Symptom analysis shortcuts
+- Health reports
+- Preventive tips
+
+---
+
+## 🤖 AI Assistant
+A floating AI assistant available on the dashboard to help users with:
+
+- Health queries
+- Symptom explanations
+- Medical advice
+
+---
+
+## 🧾 Health History
+Stores previous health analyses including:
+
+- Symptoms
+- Risk level
+- AI recommendations
+- Date of analysis
+
+---
+
+## 💡 Preventive Health Tips
+Provides daily health suggestions like:
+
+- Hydration reminders
+- Diet tips
+- Exercise suggestions
+- Seasonal health precautions
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+- **Next.js (App Router)**
+- **React**
+- **CSS / Tailwind based UI**
+- Responsive design
+
+### Backend
+- **Next.js API Routes**
+
+### AI Integration
+- **Google Gemini API**
+
+### OCR
+- **Tesseract.js**
+
+### Deployment
+- **Vercel**
+
+### Version Control
+- **Git + GitHub**
+
+---
+
+# 📂 Project Structure
+
+```
+
+arogyaai
+│
+├── app
+│   ├── api
+│   │   └── analyze
+│   │       └── route.ts
+│   │
+│   ├── dashboard
+│   ├── symptoms
+│   ├── prescription
+│   ├── doctors
+│   ├── history
+│   └── tips
+│
+├── components
+│   ├── Sidebar
+│   ├── DoctorCard
+│   ├── AIChat
+│
+├── public
+│   └── icons
+│
+└── styles
+
+````
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/arogyaai.git
+cd arogyaai
+````
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3️⃣ Setup Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```
+GEMINI_API_KEY=your_api_key_here
+```
+
+---
+
+## 4️⃣ Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is deployed using **Vercel**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push project to GitHub
+2. Import repository into **Vercel**
+3. Add environment variable:
 
-## Deploy on Vercel
+```
+GEMINI_API_KEY
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# 🎯 Use Cases
+
+This project can help in:
+
+* Quick symptom checking
+* Basic medical awareness
+* Rural healthcare assistance
+* Health-tech hackathons
+* AI healthcare prototypes
+
+---
+
+# ⚠️ Disclaimer
+
+ArogyaAI provides **AI-generated health suggestions** and **does not replace professional medical advice**.
+
+Always consult a qualified doctor for serious medical concerns.
+
+---
+
+# 👨‍💻 Author
+
+**Aarush**,**Renuka**,**Angel**
+
+AI & Data Science Student
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork the project
+💡 Contribute improvements
+
+---
+
+```
+
+which will make your **GitHub repo look 10× more professional.**
+```

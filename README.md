@@ -1,7 +1,5 @@
-Here is the **proper `README.md` formatted file** you can directly paste into your GitHub repository.
 
-```markdown
-# 🩺 ArogyaAI – AI Powered Health Assistant
+**🩺 ArogyaAI – AI Powered Health Assistant**
 
 ArogyaAI is an AI-driven healthcare assistant that helps users analyze symptoms, decode prescriptions, find nearby doctors, and receive preventive health advice using artificial intelligence.
 
@@ -232,6 +230,3 @@ If you like this project:
 💡 Contribute improvements
 
 ---
-
-```
-```

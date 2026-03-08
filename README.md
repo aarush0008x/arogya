@@ -234,6 +234,4 @@ If you like this project:
 ---
 
 ```
-
-which will make your **GitHub repo look 10× more professional.**
 ```
